@@ -69,14 +69,14 @@
             type='nft' url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/ar3d/video_chromakey/master/marker/Galleria'
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         >
-            <a-entity
-                material="shader: chromakey; src=#vid; color: 0.1 0.9 0.2" geometry="primitive: box"
+            <a-video
+                material='shader: chromakey; src=#vid; color: 0.1 0.9 0.2' 
                 position='70 0 -170'
 		rotation='90 0 180'
                 width='213'
                 height='135'
                 >
-            </a-entity>
+            </a-video>
         </a-nft>
 		<a-entity camera></a-entity>
 	</a-scene>
